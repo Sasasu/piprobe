@@ -1,0 +1,16 @@
+*.gen/
+*.cache/
+*.runs/
+
+gerber/
+fp-info-*
+*-bak
+*.bak
+*.csv
+*.round-tracks-config
+*.txt
+
+*.dcp
+*.xsa
+*.bda
+*.xci

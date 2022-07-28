@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SPK0838HT4H-B
+#
+DEF SPK0838HT4H-B MK 0 40 Y Y 1 L N
+F0 "MK" -600 200 50 H V L BNN
+F1 "SPK0838HT4H-B" -601 -301 50 H V L BNN
+F2 "MIC_SPK0838HT4H-B" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Knowles" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -600 -200 600 200 0 0 10 f
+X VDD 1 800 100 200 L 40 40 0 0 W 
+X GND 5 800 -100 200 L 40 40 0 0 W 
+X GND 6 800 -100 200 L 40 40 0 0 W 
+X GND 7 800 -100 200 L 40 40 0 0 W 
+X GND 8 800 -100 200 L 40 40 0 0 W 
+X SELECT 2 -800 100 200 R 40 40 0 0 I 
+X CLOCK 3 -800 0 200 R 40 40 0 0 I C
+X DATA 4 800 0 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
